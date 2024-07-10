@@ -1,0 +1,25 @@
+[helloworld.meta]
+modules = ["helloworld"]
+[helloworld.project]
+name = "helloworld"
+version="1.0.0"
+authors = [{name = "Nakidai", email = "plaza521@inbox.ru"}]
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3.12",
+]
+[helloworld.project.scripts]
+hello = "helloworld:main"
+
+[goodbyeworld.meta]
+modules = ["goodbyeworld"]
+[goodbyeworld.project]
+name = "goodbyeworld"
+version="1.0.0"
+authors = [{name = "Nakidai", email = "plaza521@inbox.ru"}]
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3.12",
+]
+[goodbyeworld.project.scripts]
+goodbye = "goodbyeworld:main"

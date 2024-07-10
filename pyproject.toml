@@ -8,7 +8,7 @@ description = "Tool for building python monoprojects"
 readme = "README.md"
 version = "v1.0.0"
 authors = [{name = "Nakidai", email = "plaza521@inbox.ru"}]
-dependencies = ["toml"]
+dependencies = ["toml", "pip", "build"]
 classifiers = [
     "License :: OSI Approved :: BSD License",
     "Programming Language :: Python :: 3.12",
