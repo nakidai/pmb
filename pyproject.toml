@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pythonmonobuilder"
+description = "Tool for building python monoprojects"
+readme = "README.md"
+version = "v1.0.0"
+authors = [{name = "Nakidai", email = "plaza521@inbox.ru"}]
+dependencies = ["toml"]
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.scripts]
+pmb = "pythonmonobuilder:main"
